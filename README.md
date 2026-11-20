@@ -4,7 +4,17 @@
 [![rank](https://make.fun/badge/gta6-cover-art-01/h2967963512-afk/gta6-cover-art-01/rank.svg)](https://make.fun/bounty/gta6-cover-art-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 [![reward](https://make.fun/badge/gta6-cover-art-01/h2967963512-afk/gta6-cover-art-01/reward.svg)](https://make.fun/bounty/gta6-cover-art-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-cover-art-01)
 
-Neon Coast Cover Studio is an offline web app that turns a photo and a caption into GTA 6-style multi-panel cover art and exports it as PNG. Four poster layouts, five neon-sunset grades, per-panel photo positioning with zoom and pan, and bold caption lettering. No network needed, and no Rockstar artwork, logo, or font anywhere in it.
+Neon Coast Cover Studio is a small offline studio for making poster-style cover art in the spirit of GTA 6: drop in your own photo, add a big title and a subtitle, and the app arranges everything into a bright multi-panel poster you can save as a PNG. It runs entirely in the browser with no server and no network, and it uses no Rockstar artwork, logos, or fonts.
+Everything stays on your own machine: no photo you load is ever uploaded anywhere.
+
+## What it makes
+
+- Posters built from your photos, with four different panel layouts to choose from
+- Five warm neon-sunset colour grades that set the mood of the whole cover
+- Per-panel photo controls, so each picture can be zoomed and moved into place
+- Bold title and subtitle lettering over the finished poster
+- Clean PNG exports at 1080×1080, 1080×1350, or 1920×1080
+- A live preview, so what you see in the studio is what the exported poster looks like
 
 ## Run it
 
@@ -12,7 +22,7 @@ Neon Coast Cover Studio is an offline web app that turns a photo and a caption i
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-Open `app/index.html` in a desktop browser to use the studio: load a photo into any panel, write the title and subtitle, pick a layout and a grade, and export the cover at 1080×1080, 1080×1350, or 1920×1080.
+Open `app/index.html` in a desktop browser to use the studio: put a photo in any panel, type the title and subtitle, choose a layout and a grade, then export the cover in the size you want.
 
 ---
 
